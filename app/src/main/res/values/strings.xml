@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VirginMoney</string>
+
+    <string name="employee_name">Employee Name</string>
+    <string name="employee_email">Email</string>
+    <string name="employee_job_title">Job Title</string>
+    <string name="employee_fav_color">Employee favourite Color</string>
+    <string name="meeting_id">Meeting Id</string>
+    <string name="meeting_name">Meeting Name</string>
+    <string name="meeting_desc">Meeting Description</string>
+
+
+</resources>
