@@ -30,24 +30,4 @@ class PeopleDetailViewModel @Inject constructor(
         }*/
     }
 
-   /* init {
-        getPeople()
-    }
-    private fun getPeople(){
-        getPeopleUseCase().onEach { result->
-            when(result){
-                is Resource.Success->
-                {
-                    _state.value= PeopleListState(people =result.data?: emptyList())
-                }
-                is Resource.Error->{
-                    _state.value= PeopleListState(error = result.message?:"Unexpected error occurred")
-                }
-
-                is Resource.Loading->{
-                    _state.value= PeopleListState(isLoading = true)
-                }
-            }
-        }.launchIn(viewModelScope)
-    }*/
 }

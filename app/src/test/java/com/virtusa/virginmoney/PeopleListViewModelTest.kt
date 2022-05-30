@@ -38,7 +38,7 @@ class PeopleListViewModelTest {
     }
 
     @Test
-    fun fetchUserRepositories_positiveResponse() {
+    fun fetchPeopleResponse() {
         // Mock API response
         Mockito.`when`(this.getPeopleUseCase()).thenAnswer(){
         }
